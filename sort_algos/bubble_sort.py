@@ -10,3 +10,8 @@ def bubble_sort(nums):
         if to_swap is None:
             sorted = True
     return nums
+
+
+if __name__ == "__main__":
+    nums = [9, 1, 8, 2, 7, 3, 6, 5, 4]
+    print(bubble_sort(nums))
